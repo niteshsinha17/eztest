@@ -1,0 +1,50 @@
+.account {
+  padding: 20px 40px;
+  color: #fff;
+  display: flex;
+}
+
+.account .menu {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.account .menu-panel {
+  flex-grow: 1;
+  padding: 0px 30px;
+}
+
+.account .menu ul {
+  list-style: none;
+}
+
+.account .menu ul li {
+  padding: 10px 20px;
+  background: #f1f7f92f;
+  border-radius: 5px;
+  color: #f1f7f9;
+  margin-bottom: 15px;
+}
+
+.account .menu ul li.active {
+  background-color: #0d1828;
+}
+
+.account .menu ul li:hover {
+  background: #818b94;
+}
+.back-icon img {
+  height: 20px;
+}
+
+@media (max-width: 600px) {
+  .account {
+    padding: 15px;
+  }
+  .account .menu {
+    width: 100%;
+  }
+  .account .menu-panel {
+    padding: 0;
+  }
+}
